@@ -14,7 +14,7 @@ The post-exploitation activities in a penetration test can be challenging if the
 
 # Tested applications
 
-NetRipper should be able to capture network traffic from: Putty, WinSCP, SQL Server Management Studio, Lync (Skype for Business), Microsoft Outlook, Google Chrome, Mozilla Firefox. The list is not limited to these applications but other tools may require special support.
+NetRipper should be able to capture network traffic from: Putty, WinSCP, SQL Server Management Studio, Microsoft Outlook, Google Chrome, Mozilla Firefox and multiple other tools. The list is not limited to these applications but other tools may require special support.
 
 # Components
 
@@ -23,6 +23,9 @@ NetRipper.exe - Configures and inject the DLL
 DLL.dll       - Injected DLL, hook APIs and save data to files  
 netripper.rb  - Metasploit post-exploitation module
 ```
+
+# Binaries 
+An automatic build on AppVeyor is available. Binaries can be downloaded from the Artifacts section [here](https://ci.appveyor.com/project/NytroRST/netripper/build/artifacts).
 
 # Command line
 
@@ -85,7 +88,6 @@ Set PROCESSNAMES or PROCESSIDS and run.
 # PowerShell module
 
 @HarmJ0y Added Invoke-NetRipper.ps1 PowerShell implementation of NetRipper.exe
-
 Please note that the PowerShell module is not up to date.
 
 # Plugins

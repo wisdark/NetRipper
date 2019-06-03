@@ -1,5 +1,17 @@
 # Changelog
 
+Version 1.1.24:
+- Added support for Opera and SecureCRT
+
+Version 1.1.23:
+- Added support for Slack x64
+
+Version 1.1.22:
+- Added support for Chrome 70 x64
+
+Version 1.1.21:
+- Fixed Reflective DLL Injection
+
 Version 1.1.20:
 - PCAP improvements
 
